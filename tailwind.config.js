@@ -6,7 +6,11 @@ export default {
   ],
   "darkMode": "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'bebas' : ['Bebas Neue', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
