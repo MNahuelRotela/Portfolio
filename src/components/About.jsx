@@ -26,7 +26,7 @@ const About = ({ darkMode, isTransitioning, toggleDarkMode }) => {
         <div className="relative">
         <div class={`absolute -top-72 rounded-full bg-orange-300 hover:opacity-70 -right-72 md:w-40 md:h-40 mix-blend-multiply dark:mix-blend-normal z-0 filter blur-xl opacity-40 animate-blob transition-opacity duration-500 hover:ease-in-out hover:duration-500 hover:transition-opacity ${isTransitioning ? 'ease-in-out' : ''}'`}></div>
         </div>
-        <p class={`mb-8 text-base leading-relaxed text-center text-gray-500 dark:text-white transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>💻 ⌨ I'm Nahuel! A 23 year old Full Stack developer, focused on front-end with a positive attitude, strong technical skills, a passion for innovation and implementing new ideas. What has managed to perform in an ideal way in my IT career, making all the projects that I have carried out stand out for their functionality and clean interface, but above all the human quality that we offer to the users and the work team to which belong.</p>
+        <p class={`mb-8 text-base leading-relaxed text-center text-gray-800 dark:text-white transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>💻 ⌨ I'm Nahuel! A 23 year old Full Stack developer, focused on front-end with a positive attitude, strong technical skills, a passion for innovation and implementing new ideas. What has managed to perform in an ideal way in my IT career, making all the projects that I have carried out stand out for their functionality and clean interface, but above all the human quality that we offer to the users and the work team to which belong.</p>
         
       </div>
     </div>

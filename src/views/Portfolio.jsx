@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import nahuel from '../assets/nahuel.png';
 import ContactForm from '../components/ContactForm';
 import About from '../components/About';
+import Skills from '../components/Skills';
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -71,6 +72,11 @@ const Portfolio = () => {
         <div>
             <About darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode}/>
         </div>
+
+        <div>
+            <Skills darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode}/>
+        </div>
+
         <div id="contact-form">
         <ContactForm darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode} />
 
