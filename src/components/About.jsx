@@ -22,12 +22,12 @@ const About = ({ darkMode, isTransitioning, toggleDarkMode }) => {
       </div>
       <div class="flex flex-col items-center mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
         <span class={`mb-8 text-xs font-bold tracking-widest text-yellow-600 uppercase transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}> About Me </span>
-        <h1 class={`mb-8 text-4xl font-bold leading-none tracking-tighter text-gray-800 dark:text-gray-200 md:text-7xl lg:text-5xl transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>Nahuel Rotela</h1>
+        <h1 class={`mb-8 text-4xl font-bebas leading-none tracking-tighter text-gray-800 dark:text-gray-200 md:text-7xl lg:text-5xl transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>Nahuel Rotela</h1>
         <div className="relative">
         <div class={`absolute -top-72 rounded-full bg-orange-300 hover:opacity-70 -right-72 md:w-40 md:h-40 mix-blend-multiply dark:mix-blend-normal z-0 filter blur-xl opacity-40 animate-blob transition-opacity duration-500 hover:ease-in-out hover:duration-500 hover:transition-opacity ${isTransitioning ? 'ease-in-out' : ''}'`}></div>
         </div>
-        <p class={`mb-8 text-base leading-relaxed text-center text-gray-800 dark:text-white transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>💻 ⌨ I'm Nahuel! A 23 year old Full Stack developer, focused on front-end with a positive attitude, strong technical skills, a passion for innovation and implementing new ideas. What has managed to perform in an ideal way in my IT career, making all the projects that I have carried out stand out for their functionality and clean interface, but above all the human quality that we offer to the users and the work team to which belong.</p>
-        
+        <p class={`mb-8 text-lg leading-relaxed text-center font-bebas text-gray-800 dark:text-white transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>💻 ⌨ I'm Nahuel! A 23 year old Full Stack developer, focused on front-end with a positive attitude, strong technical skills, a passion for innovation and implementing new ideas. What has managed to perform in an ideal way in my IT career, making all the projects that I have carried out stand out for their functionality and clean interface, but above all the human quality that we offer to the users and the work team to which belong.</p>
+        <a className=" bg-[#fdbe5b] p-4 rounded-lg text-white text-xl border-4  border-yellow-600 outline-4 hover:bg-[#fdbe3b] hover:scale-110 duration-500  font-bebas" href="https://drive.google.com/file/d/1i5DJupDZZ7zrxpPYShPX4ojzE8H-5xSD/view?usp=drive_link" target="_blank" rel="noreferrer" >DOWLOAD RESUME</a>
       </div>
     </div>
   </div>

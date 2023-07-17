@@ -35,8 +35,8 @@ const Skills = ({ darkMode, isTransitioning, toggleDarkMode }) => {
       {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col pt-8 w-full h-full z-10'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#fdbe7b]'>Hard Skills</p>
-                <p className='pt-2'>Estas son las tecnologías en las que estoy trabajando/capacitandome.</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#fdbe7b] font-bebas'>Skills</p>
+                <p className='pt-2'>These are some of the technologies I use</p>
             </div>
 
             <div className='w-full grid grid-cols-5 sm:grid-cols-5 gap-4 text-center py-8'>

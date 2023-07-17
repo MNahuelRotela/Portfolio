@@ -5,6 +5,8 @@ import nahuel from '../assets/nahuel.png';
 import ContactForm from '../components/ContactForm';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Carousel from '../components/Carousel';
+import { SocialMedia } from '../components/SocialMedia';
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,6 +27,10 @@ const Portfolio = () => {
   return (
     <div className={`${darkMode ? 'dark' : 'light'}`}>
       <section className='flex-1 '>
+        <div className='sticky z-[100] '>
+
+        <SocialMedia/>
+        </div>
         <div className='sticky top-0 z-[100] bg-gray-200 dark:bg-gray-900'>
           <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </div>
@@ -69,12 +75,16 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div id="about">
             <About darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode}/>
         </div>
 
-        <div>
+        <div id="skills">
             <Skills darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode}/>
+        </div>
+
+        <div id="carousel">
+            <Carousel darkMode={darkMode} isTransitioning={isTransitioning} toggleDarkMode={toggleDarkMode}/>
         </div>
 
         <div id="contact-form">
