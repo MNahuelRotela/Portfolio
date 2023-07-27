@@ -4,7 +4,7 @@ import { BsFileEarmarkText } from 'react-icons/bs';
 
 export const SocialMedia = () => {
   return (
-    <div className=" lg:flex fixed flex-col top-[40%] md:top-[65%] left-0 md:w-full w-1/2 ">
+    <div className=" lg:flex fixed flex-col top-[40%] md:top-[65%] left-0 md:w-fit w-fit ">
       <ul>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fdbe5b]">
           <a className="flex justify-between items-center w-full text-[#ebf2fa] ml-6" href="https://www.linkedin.com/in/nahuelrotela/" target="_blank" rel="noreferrer">
