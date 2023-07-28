@@ -27,7 +27,7 @@ const About = ({ darkMode, isTransitioning, toggleDarkMode }) => {
         <div class={`absolute -top-72 rounded-full bg-orange-300 hover:opacity-70 -right-72 md:w-40 md:h-40 mix-blend-multiply dark:mix-blend-normal z-0 filter blur-xl opacity-40 animate-blob transition-opacity duration-500 hover:ease-in-out hover:duration-500 hover:transition-opacity ${isTransitioning ? 'ease-in-out' : ''}'`}></div>
         </div>
         <p class={`mb-8 text-lg leading-relaxed text-center font-bebas text-gray-800 dark:text-white transition-colors duration-500 ${isTransitioning ? 'ease-in-out' : ''}'`}>💻 ⌨ I'm Nahuel! A 23 year old Full Stack developer, focused on front-end with a positive attitude, strong technical skills, a passion for innovation and implementing new ideas. What has managed to perform in an ideal way in my IT career, making all the projects that I have carried out stand out for their functionality and clean interface, but above all the human quality that we offer to the users and the work team to which belong.</p>
-        <a className=" bg-[#fdbe5b] p-4 rounded-lg text-white text-xl border-4  border-yellow-600 outline-4 hover:bg-[#fdbe3b] hover:scale-110 duration-500  font-bebas" href="https://drive.google.com/file/d/1i5DJupDZZ7zrxpPYShPX4ojzE8H-5xSD/view?usp=drive_link" target="_blank" rel="noreferrer" >DOWLOAD RESUME</a>
+        <a className=" bg-[#fdbe5b] p-4 rounded-lg text-white text-xl border-4  border-yellow-600 outline-4 hover:bg-[#fdbe3b] hover:scale-110 duration-500  font-bebas" href="https://drive.google.com/drive/folders/1qn84oWU8y1pqfhx6GQMNynNDwF5lL6WE?usp=sharing" target="_blank" rel="noreferrer" >DOWLOAD RESUME</a>
       </div>
     </div>
   </div>

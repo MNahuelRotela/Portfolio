@@ -23,7 +23,7 @@ export const SocialMedia = () => {
           </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fdbe5b]">
-          <a className="flex justify-between items-center w-full text-[#ebf2fa] ml-6" href="https://drive.google.com/file/d/1i5DJupDZZ7zrxpPYShPX4ojzE8H-5xSD/view?usp=drive_link" target="_blank" rel="noreferrer">
+          <a className="flex justify-between items-center w-full text-[#ebf2fa] ml-6" href="https://drive.google.com/drive/folders/1qn84oWU8y1pqfhx6GQMNynNDwF5lL6WE?usp=sharing" target="_blank" rel="noreferrer">
             CV
             <svg stroke="currentColor" className='mr-4' fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"></path>
